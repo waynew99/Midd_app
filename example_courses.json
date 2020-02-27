@@ -1,0 +1,31 @@
+{
+    "CSCI0101A": {
+        "CRN": "20020",
+        "department": "Computer Science",
+        "department_abbr": "CSCI",
+        "course_title": "Introduction to Computing",
+        "course_code": "CSCI 0101 A",
+        "days": "TR",
+        "start": "08:00 AM",
+        "end": "09:15 AM",
+        "room": "MBH 104",
+        "instructor": "Andrews, C / Hess, P",
+        "seats_avail": "11",
+        "reserved_incoming": "10"
+    },
+    
+    "CSCI0201A": {
+        "CRN": "20052",
+        "department": "Computer Science",
+        "department_abbr": "CSCI",
+        "course_title": "Data Structures",
+        "course_code": "CSCI 0201 A",
+        "days": "MWRF",
+        "start": "00:10 AM",
+        "end": "11:00 PM",
+        "room": "MBH 104",
+        "instructor": "Christman, A",
+        "seats_avail": "4",
+        "reserved_incoming": ""
+    }
+}
