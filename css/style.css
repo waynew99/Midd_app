@@ -1,0 +1,31 @@
+h1{
+	color:#337ef5;
+}
+
+h4{
+	color:#eee;
+	line-height:0.2em;
+}
+
+body{
+	color:#eeeeee;
+	background-color:#333333;
+	font: normal 14px "Lucida-console", Monoco, Monospace;
+}
+
+p{
+	margin-top: 20px;
+	line-height: 2em;
+	text-indent: 3%;
+}
+
+header{
+	
+}
+
+div{
+	margin-top:50px;
+}
+
+a:link{color:#eee}
+a:visited{color:#eee;}
