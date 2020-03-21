@@ -7,7 +7,10 @@ from datetime import datetime
 
 launch_guide = "type in the option# to use the function: \n 1. Course Search - display the course details listed on bannerweb \n 2. Classroom availability check \n "
 
-
+def pretty_print(course):
+	print("Course name: ", course.[course_code],
+		  "\nCRN:			", course.[CNR])
+	
 
 def course_search():
 	f = open("example_courses.json")
@@ -15,6 +18,7 @@ def course_search():
 	given = input("\nenter the course you would like to search: ")
 	for i in courses:
 		if given.lower() in i.lower() or given.lower() in courses[i]["course_title"].lower():
+			print(type(courses[i]))
 			pretty_print(courses[i])
 
 def room_search():
