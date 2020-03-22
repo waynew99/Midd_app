@@ -11,7 +11,8 @@
         "room": "MBH 104",
         "instructor": "Andrews, C / Hess, P",
         "seats_avail": "11",
-        "reserved_incoming": "10"
+        "reserved_incoming": "10",
+        "CW": ""
     },
     
     "CSCI0201A": {
@@ -26,6 +27,7 @@
         "room": "MBH 104",
         "instructor": "Christman, A",
         "seats_avail": "4",
-        "reserved_incoming": ""
+        "reserved_incoming": "",
+        "CW": ""
     }
 }

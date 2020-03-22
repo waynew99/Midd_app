@@ -5,24 +5,28 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="initial-scale=1.0">
 	    <title>Midd</title>
-	    <link rel="stylesheet" type="text/css" href="css/style1.css">
-	    <script src="main1.js"></script>
+	    <link rel="stylesheet" type="text/css" href="css/style.css">
+	    <script src="main.js"></script>
 	</head>
 	<body>
+		<div id="title">
+			<h1>Welcome to MiddTool!<br>&#128406 &#127542 &#127918 &#128294 &#128295</h1>
+			<br>
+		</div>
 		<div id="functions">
-			<div id="course_search">
+			<div class="feature" id="course_search">
 				<h2>Course Search</h2>
 				<input type="text" name="course_keyword" id="course_keyword" placeholder="Course Keyword">
 				<button onclick="courseSearch()">Course Search</button>
-				<p id="course_search_result">abab</p>
+				<p id="course_search_result">Search Result</p>
 			</div>
 			<br>
 
-			<div id="check room availability">
+			<div class="feature" id="check room availability">
 				<h2>Check room availability</h2>
 				<input type="text" name="room_code" id="room_code" placeholder="Room Code">
 				<button onclick="checkRoomAval()">Check Room</button>
-				<div id="room_search_result"></div>
+				<p id="room_search_result">Room search</p
 			</div>
 			<br>
 		</div>
