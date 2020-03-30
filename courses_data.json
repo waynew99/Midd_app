@@ -34166,7 +34166,7 @@
         "Department": "Sociology",
         "Course_code": "SOCI 0218 A",
         "CW": "",
-        "Seats_avail": "-12",
+        "Seats_avail": "-11",
         "Reserved_incoming": "",
         "Course_title": "Sociology of Sport",
         "Room": "AXN 232",
@@ -34878,7 +34878,7 @@
         "Reserved_incoming": "1",
         "Course_title": "Accelerated Basic Spanish",
         "Room": "LAF 121",
-        "Instructor": "Hernandez-Romero, M",
+        "Instructor": "Zabala, M",
         "Days": "MWFTR",
         "Time": {
             "M": [
@@ -34968,7 +34968,7 @@
         "Reserved_incoming": "-1",
         "Course_title": "Intermediate Spanish Drill",
         "Room": "SDL 130",
-        "Instructor": "Jimenez Saenz, P",
+        "Instructor": "Gonzalez Zenteno, G / Ji",
         "Days": "R",
         "Time": {
             "M": "No Class",
@@ -34990,7 +34990,7 @@
         "Reserved_incoming": "2",
         "Course_title": "Intermediate Spanish Drill",
         "Room": "SDL IL1",
-        "Instructor": "Jimenez Saenz, P",
+        "Instructor": "Rohena-Madrazo, M",
         "Days": "T",
         "Time": {
             "M": "No Class",
@@ -35012,7 +35012,7 @@
         "Reserved_incoming": "0",
         "Course_title": "Intermediate Spanish Drill",
         "Room": "SDL 130",
-        "Instructor": "Jimenez Saenz, P",
+        "Instructor": "Rohena-Madrazo, M",
         "Days": "T",
         "Time": {
             "M": "No Class",
@@ -35349,7 +35349,7 @@
         "Reserved_incoming": "",
         "Course_title": "Socio-Culture of Salsa Music",
         "Room": "LIB 230",
-        "Instructor": "Hernandez-Romero, M",
+        "Instructor": "Zabala, M",
         "Days": "TR",
         "Time": {
             "M": "No Class",
@@ -36324,7 +36324,7 @@
         "Department": "Theatre",
         "Course_code": "THEA 0129 B",
         "CW": "",
-        "Seats_avail": "1",
+        "Seats_avail": "0",
         "Reserved_incoming": "2",
         "Course_title": "Spring Production Studio: Des",
         "Room": "MAC THE",
@@ -36377,7 +36377,7 @@
         "Seats_avail": "APRVL",
         "Reserved_incoming": "",
         "Course_title": "Spring Production Studio: Act",
-        "Room": "MAC THE",
+        "Room": "MAC 232",
         "Instructor": "Draper, A",
         "Days": "UMTWRFUMTWRF",
         "Time": {

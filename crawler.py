@@ -1,10 +1,14 @@
 from bs4 import BeautifulSoup
 import requests
 import json
+
 courses_data = {}
+MAIN_URL = 'https://ssb-prod.ec.middlebury.edu/PNTR/'
+HOME_URL = 'saturn_midd.course_catalog_utlq.catalog_page_by_dept?p_term='
+SEMESTER = '202020'
 
 def get_dep_links():
-	url = 'https://ssb-prod.ec.middlebury.edu/PNTR/saturn_midd.course_catalog_utlq.catalog_page_by_dept?p_term=202020'
+	url = MAIN_URL + HOME_URL + SEMESTER
 	source = requests.get(url).text
 	soup = BeautifulSoup(source, 'lxml')
 	

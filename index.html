@@ -7,8 +7,8 @@
 	    <title>Midd</title>
 	    <link rel="stylesheet" type="text/css" href="css/style.css">
 	    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+	    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.6.1/fuse.js"></script>
 	    <script src="main.js"></script>
-	    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.6.1/fuse.min.js"></script>
 	</head>
 	<body>
 		<div id="title">
@@ -19,16 +19,30 @@
 			<div class="feature" id="course_search">
 				<h2>Course Search</h2>
 				<input type="text" name="course_keyword" id="course_keyword" placeholder="Course Keyword">
-				<button onclick="courseSearch()">Course Search</button>
-				<p id="course_search_result">Search Result</p>
+				<script type="text/javascript">
+					$("#course_keyword").keyup(function(event) {
+					    if (event.keyCode == 13) {
+					        $("#courseSearch").click();
+					    }
+					});
+				</script>
+				<button onclick="courseSearch()" id="courseSearch">Course Search</button>
+				<p id="course_search_result"></p>
 			</div>
 			<br>
 
 			<div class="feature" id="check room availability">
 				<h2>Check room availability</h2>
 				<input type="text" name="room_code" id="room_code" placeholder="Room Code">
-				<button onclick="checkRoomAval()">Check Room</button>
-				<p id="room_search_result">Room search</p
+				<script type="text/javascript">
+					$("room_code").keyup(function(event) {
+    					if (event.keyCode == 13) {
+    						$("#checkRoomAval").click();
+    					}
+    				});
+				</script>
+				<button onclick="checkRoomAval()" id="checkRoomAval">Check Room</button>
+				<p id="room_search_result"></p
 			</div>
 			<br>
 		</div>
